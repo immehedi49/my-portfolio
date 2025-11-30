@@ -542,7 +542,7 @@ html {
         flex-direction: row;
     }
     .name p {
-        margin-right: 25px;
+        margin-right: 40px;
     }
     .href-links {
         display: grid;
