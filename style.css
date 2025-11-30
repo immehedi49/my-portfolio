@@ -543,7 +543,7 @@ html {
         flex-direction: row;
     }
     .name p {
-        margin-right: 40px;
+        margin-right: 20px;
     }
     .href-links {
         display: grid;
