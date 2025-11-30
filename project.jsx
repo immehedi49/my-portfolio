@@ -15,7 +15,7 @@ export default function Project() {
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://react-simple-eccommerce.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>
@@ -28,17 +28,17 @@ export default function Project() {
             
             <div className="project-item">
                 <div className="project-img">
-                    <img src="/assets/Blackjack game.png" alt="" />
+                    <img src="/assets/2.png" alt="" />
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://tic-tac-play-game.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>
                 <div>
-                    <p className="project-name">Blackjack Game</p>
-                    <p className="project-user-tools"> <span>Stack: </span> CSS, JavaScript</p>
+                    <p className="project-name">Tic-Tac-Toe Game</p>
+                    <p className="project-user-tools"> <span>Stack: </span> CSS, JavaScript, React Js</p>
                 </div>
                 </div>
             </div>
@@ -63,17 +63,17 @@ export default function Project() {
 
             <div className="project-item">
                 <div className="project-img">
-                    <img src="/assets/Passenger count.png" alt="" />
+                    <img src="/assets/Memory.png" alt="" />
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://memory-card-matching.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>
                 <div>
-                    <p className="project-name">Passenger Counter</p>
-                    <p className="project-user-tools"> <span>Stack: </span> CSS, JavaScript</p>
+                    <p className="project-name">Memory Card Matching</p>
+                    <p className="project-user-tools"> <span>Stack: </span> CSS, JavaScript, React JS</p>
                 </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ export default function Project() {
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://assembly-game-play.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>
@@ -101,7 +101,7 @@ export default function Project() {
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://tenzies-game-applicationn.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>
