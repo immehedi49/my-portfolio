@@ -600,7 +600,8 @@ html {
 
 /* Projrct */
 .project-list {
-    width: 80%;
+    width: 100%;
+    grid-template-columns: 1fr;
 }
 
 /* Description */
