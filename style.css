@@ -466,6 +466,7 @@ html {
 
 .footer-git, .footer-linked {
     display: flex;
+    align-items: center;
 }
 
 .git-text, .git-link, .linked-text, .linked-link {
@@ -481,6 +482,7 @@ html {
 .git-link, .linked-text, .linked-link {
     margin-left: 30px;
 }
+
 
 .git-img img{
     margin-top: 12px;

@@ -29,7 +29,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <div>
-                            <p className="git-text">GitHub</p>
+                            {/* <p className="git-text">GitHub</p> */}
                             <a className="git-link" href="https://github.com/immehedi49">github.com/immehedi49</a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function Footer() {
                                     </a>
                         </div>
                         <div>
-                            <p className="linked-text">LinkedIn</p>
+                            {/* <p className="linked-text">LinkedIn</p> */}
                             <a className="linked-link" href="https://www.linkedin.com/in/mehedihasan49">www.linkedin.com/in/mehedihasan49</a>
                         </div>
                     </div>
