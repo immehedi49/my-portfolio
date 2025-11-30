@@ -537,6 +537,9 @@ html {
 
 @media (max-width: 600px) {
 /* Navbar */
+.navbar{
+    width: 100%;
+}
     .navbar-content-wrapper {
         max-width: 600px;
         flex-direction: row;
