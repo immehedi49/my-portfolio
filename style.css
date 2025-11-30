@@ -541,12 +541,14 @@ html {
         max-width: 600px;
         flex-direction: row;
     }
+    .name p {
+        margin-right: 25px;
+    }
     .href-links {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px 30px;
         margin-top: 5px;
-        margin-left: 10px;
     }
     .href-links a {
         white-space: nowrap;
