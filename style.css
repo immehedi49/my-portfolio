@@ -304,7 +304,7 @@ html {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
 }
 
 .project-item {
@@ -596,6 +596,11 @@ html {
 
 .education-item {
     width: 90%;
+}
+
+/* Projrct */
+.project-list {
+    width: 80%;
 }
 
 /* Description */
