@@ -657,10 +657,11 @@ html {
     }
     .git-text, .linked-text, .git-link, .linked-link{
         margin-left: 20px;
+        font-size: 12px;
     }
     .footer-contact h1,
     .footer-contact h2 {
-        font-size: 17px;
+        font-size: 14px;
     }
 
 /* When clicking navbar links, give space from top */
