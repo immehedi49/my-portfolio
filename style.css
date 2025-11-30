@@ -538,111 +538,55 @@ html {
 @media (max-width: 600px) {
 /* Navbar */
 
-/* make sure box sizing prevents overflow */
-    *,
-    *::before,
-    *::after {
+.navbar {
         box-sizing: border-box;
+        width: 100%;
+        padding: 12px;
     }
 
-    /* mobile-specific navbar layout */
-    @media (max-width: 600px) {
-        .navbar {
-            width: 100%;
-            padding: 10px 12px;
-            background: inherit;
-        }
+    .navbar-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        /* stack vertically */
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
 
-        /* create three columns: name | links | button */
-        .navbar-content-wrapper {
-            display: grid;
-            grid-template-columns: auto 1fr auto;
-            /* left auto, center flexible, right auto */
-            align-items: center;
-            gap: 12px;
-            width: 100%;
-            max-width: 100%;
-        }
+    .name p {
+        margin: 0;
+        font-size: 22px;
+    }
 
-        /* name stays left, stacked text (two lines) */
-        .name {
-            padding-left: 6px;
-        }
+    .links {
+        width: 100%;
+    }
 
-        .name p {
-            margin: 0;
-            line-height: 1;
-            /* makes name compact and stacked */
-            font-size: 26px;
-            /* tune size to match your example */
-            font-weight: 700;
-            color: #bfe9ff;
-        }
+    .href-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 18px;
+        width: 100%;
+    }
+    .href-links a {
+        display: inline-block;
+        width: fit-content;
+    }
+    
+    .href-links a::after {
+        left: 0;
+        width: 0;
+    }
+    
+    .href-links a:hover::after {
+        width: 100%;
+    }
 
-        /* center column holds links grid */
-        .links {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
-        .href-links {
-            display: grid;
-            grid-template-columns: repeat(2, auto);
-            /* two columns of links */
-            gap: 8px 30px;
-            /* vertical gap 8px, horizontal 30px */
-            align-items: start;
-            justify-content: center;
-        }
-
-        .href-links a {
-            display: inline-block;
-            white-space: nowrap;
-            color: #cbefff;
-            font-size: 18px;
-            padding: 4px 0;
-            margin: 0;
-        }
-
-        /* right column: resume button */
-        .button {
-            flex: 0 0 auto;
-            width: auto;
-            padding: 8px 16px;
-            height: 40px;
-            border-radius: 10px;
-            background: rgba(10, 20, 30, 0.5);
-            color: #bfe9ff;
-            font-weight: 600;
-            border: none;
-            cursor: pointer;
-            margin: 0;
-            justify-self: end;
-            /* sticks button to the right edge of that column */
-        }
-
-        /* small tune: ensure the center column shrinks gracefully */
-        .links,
-        .href-links {
-            min-width: 0;
-        }
-
-        /* optional: reduce name size a little on very narrow phones */
-        @media (max-width: 380px) {
-            .name p {
-                font-size: 22px;
-            }
-
-            .href-links a {
-                font-size: 16px;
-            }
-
-            .button {
-                padding: 6px 12px;
-                height: 36px;
-            }
-        }
+    .button {
+        width: 120px;
+        align-self: flex-end;
+        /* or center */
+        margin-top: 6px;
     }
 
 
