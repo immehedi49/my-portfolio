@@ -152,7 +152,7 @@ html {
 
 .button-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .resume-button {
@@ -659,6 +659,7 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 5px;
+    column-gap: 2px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -672,7 +673,6 @@ html {
         grid-column: 2;
         grid-row: 1;
         text-align: left;
-        margin-left: -112px;
     }
     
     .footer-contact {
@@ -701,7 +701,7 @@ html {
     }
     .footer-contact h1,
     .footer-contact h2 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
 /* When clicking navbar links, give space from top */
