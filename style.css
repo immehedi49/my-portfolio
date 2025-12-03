@@ -390,6 +390,7 @@ html {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     border: 1px solid;
     border-color: oklch(68.5% 0.169 237.323);
+    overflow: hidden;
 }
 
 .description-container h2 {
@@ -698,6 +699,7 @@ html {
 .linked-img img {
     height: 25px;
     width: 25px;
+    margin-bottom: 20px;
 }
 
 .git-text,
