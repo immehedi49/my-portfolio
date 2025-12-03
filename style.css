@@ -20,7 +20,7 @@ html {
     background: linear-gradient(135deg, #0f172a, #1a2433);
     position: sticky;
     top: 0;
-
+    z-index: 1;
 }
 
 .navbar-content-wrapper {
@@ -390,7 +390,6 @@ html {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     border: 1px solid;
     border-color: oklch(68.5% 0.169 237.323);
-    overflow: hidden;
 }
 
 .description-container h2 {
@@ -427,6 +426,8 @@ html {
 .social-icons img:hover {
     filter: brightness(1.2);
 }
+
+
 
 /* Description end  */
 
