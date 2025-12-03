@@ -42,7 +42,7 @@ export default function Footer() {
                         </div>
                         <div>
                             {/* <p className="linked-text">LinkedIn</p> */}
-                            <a className="linked-link" href="https://www.linkedin.com/in/mehedihasan49">www.linkedin.com/in/mehedihasan49</a>
+                            <a className="linked-link" href="https://www.linkedin.com/in/mehedihasan49">linkedin.com/in/mehedihasan49</a>
                         </div>
                     </div>
                 </div>

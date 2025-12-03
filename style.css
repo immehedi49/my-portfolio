@@ -117,7 +117,7 @@ html {
 }
 
 .hi {
-    color: oklch(75% 0.15 260);
+    color: #38bdf8;
     font-size: 25px;
 }
 
@@ -125,7 +125,7 @@ html {
     font-size: 100px;
     margin-top: 30px;
     background-image: linear-gradient(to right,
-            oklch(37.9% 0.146 265.522),
+            #7dd3fc,
             white);
     -webkit-background-clip: text;
     background-clip: text;
@@ -135,18 +135,19 @@ html {
 .intro-title {
     font-size: 50px;
     margin-top: 60px;
-    color: oklch(90.9% 0.146 265.522);
+    color: #7dd3fc;
 }
 
 .intro {
     font-size: 29px;
     margin-top: 50px;
     /* Removed text-align: justify; to prevent text from being stretched to fill lines */
-    color: oklch(85.8% 0.042 265.755);
+    /* text color */
+    color: oklch(85.8% 0.042 265.755); 
 }
 
 .span {
-    color: oklch(60.0% 0.146 265.522);
+    color: #0ea5e9;
 }
 
 .button-container {
@@ -159,7 +160,7 @@ html {
     width: 250px;
     font-size: 18px;
     font-weight: 500;
-    color: oklch(60.9% 0.126 221.723);
+    color: #0ea5e9;
     text-align: center;
     padding: 15px 30px;
     cursor: pointer;
@@ -198,7 +199,7 @@ html {
 
 .aboutme-title {
     font-size: 2.5rem;
-    color: oklch(35.9% 0.144 278.697);
+    color: #38bdf8;
     font-weight: 500;
     white-space: nowrap;
 }
@@ -222,7 +223,7 @@ html {
     font-size: 29px;
     margin-top: 40px;
     margin-left: 0;
-    color: oklch(80.8% 0.042 265.755);
+    color: #7dd3fc;
 }
 
 .technology-list {
@@ -242,8 +243,8 @@ html {
 }
 
 .technology-item:hover {
-    border: 1px solid orange;
-    color: orange;
+    border: 1px solid #38bdf8;
+    color: #7dd3fc;
 }
 
 .technology-item p {
@@ -269,7 +270,7 @@ html {
 
 .education-item {
     margin-bottom: 10px;
-    background-color: oklch(29.3% 0.066 243.157);
+    background-color: oklch(21% 0.034 264.665);
     padding: 15px 20px;
     border-radius: 6px;
     border: 1px dashed;
@@ -279,8 +280,8 @@ html {
 }
 
 .education-item:hover {
-    border: 1px solid red;
-    color: crimson;
+    border: 1px solid #38bdf8;
+    color: #7dd3fc;
 }
 
 .education-item p {
@@ -394,7 +395,7 @@ html {
 .description-container h2 {
     font-size: 28px;
     margin-bottom: 10px;
-    color: oklch(85.8% 0.042 265.755);
+    color: #38bdf8;
 }
 
 .underline {
@@ -471,7 +472,7 @@ html {
 
 .git-text, .git-link, .linked-text, .linked-link {
     text-decoration: none;
-    color: oklch(40.8% 0.153 2.432);
+    color: oklch(50% 0.134 242.749);
 }
 
 .git-text {
@@ -501,7 +502,7 @@ html {
 }
 
 .footer-link p{
-    color: oklch(74.6% 0.16 232.661);
+    color: #93c5fd;
     font-size: 22px;
 }
 
@@ -510,22 +511,22 @@ html {
 }
 
 .footer-contact h3{
-    color: oklch(67.3% 0.182 276.935);
+    color: #93c5fd;
 }
 
 .footer-contact h1{
-    color: oklch(55.7% 0.24 277.023);
+    color: oklch(50% 0.134 242.749);
     font-size: 20px;
 }
 
 .footer-contact h2 {
-    color: oklch(55.7% 0.24 277.023);
+    color: oklch(50% 0.134 242.749);
     font-size: 20px;
     margin-top: -9px;
 }
 
 .footer-social h1{
-    color: oklch(52.5% 0.223 3.958);
+    color: #93c5fd;
     font-size: 22px;
 }
 

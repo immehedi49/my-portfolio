@@ -28,7 +28,7 @@ export default function Project() {
             
             <div className="project-item">
                 <div className="project-img">
-                    <img src="/assets/2.png" alt="" />
+                    <img src="/assets/Tic Tac Toe.png" alt="" />
                 </div>
                 <div className="project-bar">
                 <div>
@@ -50,7 +50,7 @@ export default function Project() {
                 </div>
                 <div className="project-bar">
                 <div>
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://immehedi49.github.io/Google-keep-clone/" target="_blank" rel="noopener noreferrer">
                         <img className="project-link-img" src="/assets/project link.png" alt="" />
                     </a>
                 </div>               
