@@ -659,50 +659,59 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 5px;
-    column-gap: 2px;
     width: 100%;
     margin-bottom: 10px;
 }
 
-    .footer-link {
-        grid-column: 1;
-        grid-row: 1;
-    }
+.footer-link {
+    grid-column: 1;
+    grid-row: 1;
+}
 
-    .footer-social {
-        grid-column: 2;
-        grid-row: 1;
-        text-align: left;
-    }
-    
-    .footer-contact {
-        grid-column: 1;
-        grid-row: 2;
-        margin-bottom: -5px;
-        }
-    .footer-copy{
-        margin-top: 10px;
-    }
-    .footer-social h1{
-        font-size: 19px;
-        margin-top: 25px;
-    }
-    .git-img img{
-        height: 25px;
-        width: 25px;
-    }
-    .linked-img img {
-        height: 25px;
-        width: 25px;
-    }
-    .git-text, .linked-text, .git-link, .linked-link{
-        margin-left: 20px;
-        font-size: 12px;
-    }
-    .footer-contact h1,
-    .footer-contact h2 {
-        font-size: 13px;
-    }
+.footer-social {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+    margin-left: -90px;
+}
+
+.footer-contact {
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: -5px;
+}
+
+.footer-copy {
+    margin-top: 10px;
+}
+
+.footer-social h1 {
+    font-size: 19px;
+    margin-top: 25px;
+}
+
+.git-img img {
+    height: 25px;
+    width: 25px;
+}
+
+.linked-img img {
+    height: 25px;
+    width: 25px;
+}
+
+.git-text,
+.linked-text,
+.git-link,
+.linked-link {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.footer-contact h1,
+.footer-contact h2 {
+    font-size: 13px;
+}
 
 /* When clicking navbar links, give space from top */
 .aboutme,
