@@ -708,11 +708,11 @@ html {
 .git-link,
 .linked-link {
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 11px;
 }
 .footer-contact h1,
 .footer-contact h2 {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 /* When clicking navbar links, give space from top */
